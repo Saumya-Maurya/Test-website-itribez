@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Orions Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="GFX Partner">
+
+  <!-- Le styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      padding-left: 220px;
+      padding-bottom: 40px;
+    }
+
+    .preview {
+      width: 800px;
+    }
+
+    .navbar-fixed-top {
+      width: 200px;
+      height: 100%;
+      right: auto;
+      background: #131314;
+    }
+
+    .navbar-inner {
+      background: none;
+      padding: 30px !important;
+    }
+
+    .navbar-fixed-top .container {
+      width: 100%;
+    }
+
+    .navbar .brand {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+
+    .navbar .brand img {
+      height: 30px;
+    }
+
+    .navbar .nav {
+      width: 100%;
+      float: left;
+      margin: 0;
+    }
+
+    .navbar .nav li {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 34px !important;
+    }
+  </style>
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" id="top">
+
+  <!-- Documentation Navbar -->
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand"
+          href="#">Orions</a> <!-- TIP: Change this for the name of your file -->
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="#top" class="active">Home</a></li>
+            <li><a href="#markup">Markup</a></li>
+            <li><a href="#styles">Styles</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#psd">Photoshop</a></li>
+            <li><a href="#credits">Credits</a></li>
+            <li><a href="https://themeforest.net/user/gfxpartner">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Navbar -->
+
+  <!-- Main Container Beginning -->
+
+  <div class="container">
+    <div class="masthead">
+      <h1>Orions – App Landing Page HTML Template</h1>
+      <br>
+      <p class="marketing-byline">Made with &hearts; by <a href="https://themeforest.net/user/gfxpartner">GFXPARTNER</a>
+      </p>
+      <div style="width:100%; float:left; text-align:center; margin:30px 0;"><img src="assets/img/preview.jpg"
+          alt="Image" class="preview"></div>
+
+      <p>Orions is a premium multipurpose HTML landing page template suitable for any kind of mobile apps, startup apps, one pager websites for varied kind of businesses.</p>
+    </div>
+    <!-- masthead -->
+
+    <div id="intro">
+      <p class="highlight hero-unit">Thank you for purchasing our template. If you have any questions that are beyond
+        the scope of this help file, please feel free to email via our user page contact form <a
+          href="https://themeforest.net/user/gfxpartner">here</a>. Thanks so much!</p>
+    </div>
+    <!-- intro -->
+
+    <section id="markup">
+      <div class="page-header">
+        <h1>Markup <small>Markup customization and highlights</small></h1>
+      </div>
+      <ul>
+        <li>Animated Preloader Section</li>
+        <li>Premium Creative Design</li>
+        <li>Fully Responsive</li>
+        <li>Soft Page Transition</li>
+        <li>Amazing Hamburger Menu</li>
+        <li>Valid HTML5 - CSS3 files</li>
+        <li>Based on Bootstrap 5.x</li>
+        <li>Amazing Fullscreen Navigation</li>
+        <li>Flowless CSS transition</li>
+        <li>Cross browsers support</li>
+        <li>Retina ready</li>
+        <li>Parallax backgrounds</li>
+        <li>Google fonts</li>
+        <li>Free quick support</li>
+      </ul>
+      <hr />
+      <div class="row">
+        <div class="span3">
+          <h3>General Markup</h3>
+          <p> The general template structure is the same throughout the template. Here is the general structure.</p>
+        </div>
+        <div class="span9">
+          <pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;!----------------------------------------
+    meta tags
+    ----------------------------------------&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+    &lt;!----------------------------------------
+    title tag
+    ----------------------------------------&gt;
+    &lt;title&gt;Orions - App Landing Page&lt;/title&gt;
+
+    &lt;!----------------------------------------
+    favicon
+    ----------------------------------------&gt;
+    &lt;link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png"&gt;
+    &lt;link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png"&gt;
+    &lt;link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png"&gt;
+    &lt;link rel="manifest" href="assets/images/favicon/site.webmanifest"&gt;
+
+    &lt;!----------------------------------------
+    stylesheets
+    ----------------------------------------&gt;
+    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet"&gt;
+    &lt;link rel="stylesheet" href="assets/css/bootstrap.min.css"&gt;
+    &lt;link rel="stylesheet" href="assets/css/glightbox.min.css"&gt;
+    &lt;link rel="stylesheet" href="assets/css/all.min.css"&gt;
+    &lt;link rel="stylesheet" href="assets/css/line-awesome.min.css"&gt;
+    &lt;link rel="stylesheet" href="assets/css/overlay-scrollbars.min.css"&gt;
+    &lt;link rel="stylesheet" href="assets/css/swiper-bundle.min.css"&gt;
+    
+    &lt;link rel="stylesheet" href="assets/css/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;            
+</pre>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="span3">
+          <h3>Edit loading and page transition</h3>
+          <p>Here is the css style for preloader found in the _preloader.scss file.</p>
+        </div>
+        <div class="span9">
+          <pre class="prettyprint linenums">
+.preloader {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 999;
+
+  background-color: #fff;
+
+  @include border-gradient-triple;
+  @include animateIt;
+
+  &-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+      height: 100%;
+  }
+
+  svg {
+      width: 10%;
+
+      @media (max-width: 991px) {
+          width: 25%;
+      }
+  }
+  
+  path {
+      transform-origin: center;
+      transform-box: fill-box;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      fill: #fff;
+
+      @for $i from 1 through 8 {
+          &:nth-of-type(#{$i}) {
+            animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+          }
+      }
+  }
+
+
+  &.loaded {
+      top: 100%;
+      opacity: 0;
+      visibility: hidden;
+  }
+  
+}
+</pre>
+        </div>
+      </div>
+    </section>
+    <!-- Markup -->
+
+    <section id="styles">
+      <div class="page-header">
+        <h1>Styles <small>Styles customization and highlights</small></h1>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <h3>Stylesheets</h3>
+          <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening
+            each file:</p>
+        </div>
+        <div class="span9">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>File Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>bootstrap.min.css</code></td>
+                <td>Detault bootstrap css file</td>
+              </tr>
+              <tr>
+                <td><code>font-awesome.min.css</code></td>
+                <td>Font Awesome font icons</td>
+              </tr>
+              <tr>
+                <td><code>line-awesome.min.css</code></td>
+                <td>Line Awesome font icons</td>
+              </tr>
+              <tr>
+                <td><code>glightbox.min.css</code></td>
+                <td>GLight Box css file</td>
+              </tr>
+              <tr>
+                <td><code>overlay-scrollbars.min.css</code></td>
+                <td>Overlay Scrollbars css file</td>
+              </tr>
+              <tr>
+                <td><code>swiper-bundle.min.css</code></td>
+                <td>Swiper Slider css file</td>
+              </tr>
+              <tr>
+                <td><code>style.css</code></td>
+                <td>Template main css</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Styles -->
+
+    <section id="javascript">
+      <div class="page-header">
+        <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <h3>JavaScript Files</h3>
+          <p>This is the list of all the javascript files are we used for our theme. </p>
+        </div>
+        <div class="span9">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Tag</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>bootstrap.bundle.min.js</code></td>
+                <td>Bootstrap Javascript file</td>
+              </tr>
+              <tr>
+                <td><code>glightbox.min.js</code></td>
+                <td>GLight Box Javascript file</td>
+              </tr>
+              <tr>
+                <td><code>gsap.min.js</code></td>
+                <td>GSAP Animation Javascript file</td>
+              </tr>
+              <tr>
+                <td><code>overlay-scrollbars.min.js</code></td>
+                <td>Overlay Scrollbars Javascript file</td>
+              </tr>
+              <tr>
+                <td><code>swiper-bundle.min.js</code></td>
+                <td>Swiper Slider Javascript file</td>
+              </tr>
+              <tr>
+                <td><code>main.js</code></td>
+                <td>All the plug-ins initializing </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- JavaScript -->
+
+    <section id="psd">
+      <div class="page-header">
+        <h1>Photoshop Files <small>Photoshop customization and highlights</small></h1>
+      </div>
+      <p>There is no included psd file with this item but you can purchase it separately by
+        clicking <a href="https://themeforest.net/item/orions-app-landing-page-psd-template/26726428">here</a>.</p>
+    </section>
+    <!-- Photoshop -->
+
+    <section id="credits">
+      <div class="page-header">
+        <h1>Credits Files <small>Some of your credits and sources</small></h1>
+      </div>
+      <p>I've used the following images, icons or other files as listed.</p>
+      <h3>JavaScript</h3>
+      <ol>
+        <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+        <li><a href="https://kingsora.github.io/OverlayScrollbars">Overlay Scrollbars</a> </li>
+        <li><a href="https://swiperjs.com/">Swiper Slider</a></li>
+        <li><a href="https://biati-digital.github.io/glightbox/">GLight Box</a></li>
+      </ol>
+      <h3>Images</h3>
+      <ol>
+        <li><a href="http://www.www.istockphoto.com">http://www.istockphoto.com/</a> <small>&mdash; Some of images we
+            used from here </small></li>
+        <li><a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a> <small>&mdash; Some of images we
+            used from here </small></li>
+        <li><a href="https://www.pexels.com/">https://www.pexels.com/</a> <small>&mdash; Some of images we
+          used from here </small></li>
+      </ol>
+    </section>
+    <!-- Credits -->
+
+    <hr />
+    <div class="goodbye">
+      <p>Once again, thanks for purchasing this template and if you have any questions relating to this theme. No
+        guarantees, but we'll do our best to assist. If you have a more general question relating to the themes on
+        ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.
+      </p>
+    </div>
+    <hr />
+    <footer>
+      <p>&copy; 2021 - GFXPARTNER</p>
+    </footer>
+  </div>
+  <!-- /container -->
+
+  <!-- Le javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/google-code-prettify/prettify.js"></script>
+  <script src="assets/js/bootstrap-transition.js"></script>
+  <script src="assets/js/bootstrap-alert.js"></script>
+  <script src="assets/js/bootstrap-modal.js"></script>
+  <script src="assets/js/bootstrap-dropdown.js"></script>
+  <script src="assets/js/bootstrap-scrollspy.js"></script>
+  <script src="assets/js/bootstrap-tab.js"></script>
+  <script src="assets/js/bootstrap-tooltip.js"></script>
+  <script src="assets/js/bootstrap-popover.js"></script>
+  <script src="assets/js/bootstrap-button.js"></script>
+  <script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+
+</html>
